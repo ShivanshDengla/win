@@ -11,6 +11,10 @@ const nextConfig = {
         destination: '/api/walletconnect',
       },
     ]
+  },
+  transpilePackages: ['@farcaster/frame-sdk', '@farcaster/frame-wagmi-connector'],
+  experimental: {
+    esmExternals: 'loose'
   }
 };
 
