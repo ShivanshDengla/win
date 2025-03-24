@@ -41,14 +41,14 @@ const Home: NextPage = () => {
         {/* Farcaster Frame Meta Tag */}
         <meta name="fc:frame" content='{
           "version": "next",
-          "imageUrl": "https://win-seven-theta.vercel.app/images/1200x630_Rich_Link_Preview_Image.png",
+          "imageUrl": "https://win-seven-theta.vercel.app/images/embed.png",
           "button":{
             "title": "Launch",
             "action": {
               "type": "launch_frame",
               "name": "WinEth",
               "url": "https://win-seven-theta.vercel.app",
-              "splashImageUrl": "https://win-seven-theta.vercel.app/favicon.png",
+              "splashImageUrl": "https://win-seven-theta.vercel.app/images/favicon.ico",
               "splashBackgroundColor": "#131313"
             }
           }
